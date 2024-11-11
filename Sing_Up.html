@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/x-icon" href="/WebSite/Img/favicon.png">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/WebSite/Css/Styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <script src="/WebSite/Js/Js.js"></script>
+</head>
+<body>
+<!-- Top NavBar Start -->
+    <nav class="TNavBar">
+        <ul class="TNavBarUl">
+            <li class="TNavBarLi"><a class="TNavBarA" href="/WebSite/index.html">Home</a></li>
+            <li class="TNavBarLi"><a class="TNavBarA" href="/WebSite/HTML/Login.html">Login</a></li>
+            <li class="TNavBarLi"><a class="TNavBarA" href="/WebSite/HTML/Sign_Up.html">Sign Up</a></li>
+        </ul>
+    </nav>
+<!-- Bottom NavBar End -->
+    
+<form action="/WebSite/Php/index.php">
+    <div>    
+       <label for="Username">Username</label>
+       <input type="text" id="Username" placeholder="Username" minlength="6" maxlength="32" required>
+       </div>
+       <div>
+       <br>
+       </div>
+       <div> 
+       <label for="Password">Password</label>
+       <input type="password" id="Password" minlength="6" maxlength="32" required>
+    </div>
+    <div>
+       <label for="Telephone">Phone Number</label>
+       <input type="tel" id="Telephone" name="Telephone" placeholder="Phone Number" required pattern="[0-9]{10}">
+
+    </div>   
+    <input type="submit">
+
+<!-- Bottom NavBar Start-->
+<nav class="BNavBar">
+    <ul class="BNavBarUl">
+        <li class="BNavBarLi"><button onclick="Home()">Home</button></li>
+        <li class="BNavBarLi"><button onclick="Sign_Up()">Sign Up</button></li>
+        <li class="BNavBarLi"><button onclick="Login()">Login</button></li>
+    </ul>
+</nav>
+<!-- Bottom NavBar End -->
+</body>
+
+</html>
