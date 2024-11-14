@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/x-icon" href="https://Voxy5c.github.io/Img/favicon.png">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://Voxy5c.github.io/Css/Styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <script src="https://Voxy5c.github.io/Js/Js.js"></script>
+</head>
+<body>
+    <h1></h1>
+<!-- Top NavBar Start -->
+    <nav class="TNavBar">
+        <ul class="TNavBarUl">
+            <li class="TNavBarLi"><a class="TNavBarA" href="https://Voxy5c.github.io/">Home</a></li>
+            <li class="TNavBarLi"><a class="TNavBarA" href="https://Voxy5c.github.io/Login.html">Login</a></li>
+            <li class="TNavBarLi"><a class="TNavBarA" href="https://Voxy5c.github.io/Sign_Up.html">Sign Up</a></li>
+        </ul>
+    </nav>
+<!-- Bottom NavBar End -->
+    
+<form class="input_form" action="https://Voxy5c.github.io/Php/index.php">
+    <div class="input_form">    
+       <label class="input_form" for="Username">Username</label>
+       <input class="input_form" type="text" id="Username" placeholder="Username" minlength="6" maxlength="32" required>
+       </div>
+       <div>
+       <br>
+       </div>
+       <div> 
+       <label class="input_form" for="Password">Password</label>
+       <input class="input_form" type="password" id="Password" minlength="6" maxlength="32" required>
+    </div>
+    <div class="input_form">
+       <label class="input_form" for="Telephone">Phone Number</label>
+       <input class="input_form" type="tel" id="Telephone" name="Telephone" placeholder="Phone Number" required pattern="[0-9]{10}">
+
+    </div class="input_form">   
+    <input type="submit">
+
+<!-- Bottom NavBar Start-->
+<nav class="BNavBar">
+    <ul class="BNavBarUl">
+        <li class="BNavBarLi"><button onclick="Home()">Home</button></li>
+        <li class="BNavBarLi"><button onclick="Sign_Up()">Sign Up</button></li>
+        <li class="BNavBarLi"><button onclick="Login()">Login</button></li>
+    </ul>
+</nav>
+<!-- Bottom NavBar End -->
+</body>
+
+</html>
