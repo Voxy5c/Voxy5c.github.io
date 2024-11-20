@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://Voxy5c.github.io/Img/favicon.png" alt="Zuri8 Logo" width="120" />
   <h1>Zuri8</h1>
-  <p>A modern, cross-platform system monitor built on top of Svelte, Rust, and Tauri.</p>
+  <p>A modern, cross-platform Website.</p>
 
   [![License](https://img.shields.io/github/license/Voxy5c/Voxy5c.github.io)](https://github.com/Voxy5c/Voxy5c.github.io/blob/main/LICENSE)
   [![GitHub stars](https://img.shields.io/github/stars/Voxy5c/Voxy5c.github.io)](https://github.com/Voxy5c/Voxy5c.github.io/stargazers)
