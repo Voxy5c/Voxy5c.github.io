@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://Voxy5c.github.io/Img/favicon.png" alt="Zuri8 Logo" width="120" />
+  <img src="https://Voxy5c.github.io/Img/FaviCon/FaviCon50/android-chrome-512x512.png" alt="Zuri8 Logo" width="120" />
   <h1>Zuri8</h1>
   <p>A modern, cross-platform Website.</p>
 
