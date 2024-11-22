@@ -29,17 +29,17 @@ body {
 
 .TNavBarA {
   display: block;
-  color: aqua;
+  color: #1c2128;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 .TNavBarA :hover:not(.active) {
-  background-color: azure;
+  background-color: #00c97f;
 }
 .active {
-  background-color: #04AA6D;
+  background-color: #128d60;
 }
 /* Top NavBar End */
 
