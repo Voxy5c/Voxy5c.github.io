@@ -83,7 +83,6 @@ iframe {
   }
   
   div {
-    background-color: blue;
     color: white;
   }
 
@@ -169,7 +168,11 @@ iframe {
 .BNavBarLi {
  float: left;
 }
-
+.BNavBarZOV {
+  float: right;
+  font-weight: 700;
+  margin-right: 5px;
+}
 .BNavBarA {
   display: block;
   color: aqua;
@@ -185,3 +188,54 @@ iframe {
   background-color: #04AA6D;
 }
 /* Bottom NavBar End */
+/* body {
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background-color: #0d0d0d;
+    color: white;
+  }
+*/
+.snowf {
+  position: absolute;
+  top: -10px;
+  color: #fff;
+  font-size: 1.5em;
+  user-select: none;
+  pointer-events: none;
+  opacity: 0;
+  animation: fall linear infinite;
+}
+
+@keyframes fall {
+  0% {
+    top: -10px;
+    opacity: 1;
+  }
+  100% {
+    top: 100vh;
+    opacity: 0;
+  }
+}
+
+/* Button Style 
+#toggleButton {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s;
+}
+
+#toggleButton:hover {
+  background-color: #007b99;
+}
+  */
